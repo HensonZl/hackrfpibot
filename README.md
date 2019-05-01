@@ -40,6 +40,7 @@
 - Raspberry Pi Camera [Pi Camera](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS/ref=sr_1_3?crid=1QIIYT6VAP2VU&keywords=raspberry+pi+camera&qid=1556740642&s=electronics&sprefix=raspberry+pi+camer%2Celectronics%2C164&sr=1-3)
 
 ## Software/Libraries Used
+- HackRF Lib and Tools [HackRF GitHub](https://github.com/mossmann/hackrf/wiki/Operating-System-Tips)
 - Python3 Flask WebServer [Flask](http://flask.pocoo.org/)
 - Plotty.js [Plotty](https://plot.ly/javascript/)
 - HighCharts.js [HighCharts](https://www.highcharts.com/)
@@ -73,6 +74,38 @@ sudo apt-get upgrade
 ``` sudo apt-get install python3-picamera ```
 - The rest of the libraries used are CDNs and are included in this repository excluding Font Awesome wich is linked in the Software section
 - If you wish to download your own CDNs all the links to download them are next to them in the **Software/Libraries Used** section
+
+## Installing HackRf Lib Tools and Firmware
+- Clone The GitHub Repository
+```
+git clone https://github.com/mossmann/hackrf.git
+```
+- Install The Software
+```
+cd hackrf/host
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+sudo ldconfig
+```
+- If you detirmine the firmware need to be updated use the following link [Firmware](https://github.com/mossmann/hackrf/wiki/Updating-Firmware)
+- Make sure everything installed correctly
+```
+sudo hackrf_info
+```
+- If everything installed correctly you should get the following output
+```
+hackrf_info version: 2017.02.1
+libhackrf version: 2017.02.1 (0.5)
+Found HackRF
+Index: 0
+Serial number: 0000000000000000################
+Board ID Number: 2 (HackRF One)
+Firmware Version: 2017.02.1 (API:1.02)
+Part ID Number: 0x######## 0x########
+```
 
 ## Setting Up The Raspberry Pi As A Access Point
 - This **MUST** be done in order for you to be able to access the webserver in a headless configuration
