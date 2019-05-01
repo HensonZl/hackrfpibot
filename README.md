@@ -1,8 +1,9 @@
 # hackrfpibot
 Using a Raspberry Pi and a HackRF One to locate and graph RF signals on a Python3 Flask Web Server 
 
-@authors 
-Zachariah L. Henson https://www.linkedin.com/in/seth-french-59591017b/ and Seth French https://www.linkedin.com/in/zachariah-henson-00a693165/
+@authors
+Zachariah L. Henson https://www.linkedin.com/in/zachariah-henson-00a693165/
+Seth French https://www.linkedin.com/in/seth-french-59591017b/
 
 
 @contributors
