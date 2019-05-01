@@ -77,3 +77,8 @@ sudo apt-get upgrade
 ## Setting The Raspberry Pi As A Access Point
 - This **MUST** be done in order for you to be able to access the webserver in a headless configuration
 - Follow this link to learn how to do so [RPi Access Point](https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all)
+
+## Pictures Of The Graphs
+![Line Graph](https://i.imgur.com/xOsTxzf.png)
+![Heat Map](https://i.imgur.com/C5ddMpp.png)
+![Spectral Waterfall](https://i.imgur.com/knLPOKP.png)
