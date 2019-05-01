@@ -83,7 +83,7 @@ sudo apt-get upgrade
 - Open a terminal and open the folder were the files are located and type the following command
 ``` sudo python3 Server.py ```
 - This will start the server on port 80 on your raspberry pi 
-- With the server started you should be able to connect to you Raspberry Pi's network on any WiFi compatible device and go to the IP address you set for your Pi in the **Setting Up The Raspberry Pi As A Access Point** section and see the website and control both the Pi Robot and HackRR One 
+- With the server started you should be able to connect to you Raspberry Pi's network on any WiFi compatible device and go to the IP address you set for your Pi in the **Setting Up The Raspberry Pi As A Access Point** section and see the website and control both the Pi Robot and HackRF One 
 
 ## Additional Notes
 - With the Pi acting like an access point you are able to ssh into to via any terminal or ssh app on a mobile phone using the IP address set in the **Setting Up The Raspberry Pi As A Access Point** section. This allows the project to remain headless.
