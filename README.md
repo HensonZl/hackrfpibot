@@ -35,6 +35,7 @@
 - Mobile Power Supply [Power Supply](https://www.amazon.com/Battery-Pack-Raspberry-4000mAh-Suction/dp/B07BSG7V3J/ref=sr_1_3?keywords=raspberry+pi+3+b%2B+power+pack&qid=1556740353&s=electronics&sr=1-3)
 - DC Motor Controler [DC Controler](https://www.amazon.com/gp/product/B01M29YK5U/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
 - 4 DC Motors [Pi Motors](https://www.amazon.com/gp/product/B01M29YK5U/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1)
+- DC Power Supply For Motors [DC Power Supply](https://www.amazon.com/LAMPVPATH-Battery-Holder-Switch-Leads/dp/B076C7S2VN/ref=sr_1_6?keywords=dc+motor+power+supply+AA+batteries&qid=1556741377&s=gateway&sr=8-6)
 - Simple Robot Frame [Amazon Has Plenty Of Them](https://www.amazon.com/)
 - Raspberry Pi Camera [Pi Camera](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS/ref=sr_1_3?crid=1QIIYT6VAP2VU&keywords=raspberry+pi+camera&qid=1556740642&s=electronics&sprefix=raspberry+pi+camer%2Celectronics%2C164&sr=1-3)
 
@@ -42,9 +43,13 @@
 - Python3 Flask WebServer [Flask](http://flask.pocoo.org/)
 - Plotty.js [Plotty](https://plot.ly/javascript/)
 - HighCharts.js [HighCharts](https://www.highcharts.com/)
+- Font Awesome [FA](https://fontawesome.com/download)
 - Custom RPi Camera Script Created By [Ruchir Sharma](https://www.hackster.io/ruchir1674/video-streaming-on-flask-server-using-rpi-ef3d75)
 - Pthyon3 csv
 - Python3 json
 - Python3 subprocess
 - Python3 RPi.GPIO
 - Python3 RPi.Camera
+
+## Getting Started
+
