@@ -13,7 +13,7 @@
 - Nicholas Consolo- https://www.linkedin.com/in/nick-consolo-6432227
 
 # IMPORTANT NOTICE
-**This project possess the ability to break federal laws and FCC regulations by using this code and reading through this documentation you are agreeing to not use this code/project to break the law and if you chose to use or build this project you understand that all testing must be done in a faraday cage. Vist https://www.fcc.gov/general/jammer-enforcement and https://www.fcc.gov/ for all laws and regulations**
+**This project possess the ability to break federal laws and FCC regulations by using this code and reading through this documentation you are agreeing to not use this code/project to break the law and if you chose to use or build this project you understand that all testing must be done in a faraday cage. Visit https://www.fcc.gov/general/jammer-enforcement and https://www.fcc.gov/ for all laws and regulations**
 
 ## File Structure
 - **Templates/** _contains the html files for the webserver_
@@ -52,4 +52,28 @@
 - Python3 RPi.Camera
 
 ## Getting Started
+- Ensure that your RaspberryPi is updated
+```
+sudo apt-get update
+sudo apt-get upgrade 
+```
+- Ensure Python3 is installed on the PI
+``` sudo python3 ```
+  1. If there is an error follow the link to learn how to install python3 [Python3](https://gist.github.com/dschep/24aa61672a2092246eaca2824400d37f)
+- Install pip3 
+``` sudo apt-get install python3-pip ```
+- Install Flask
+``` sudo pip3 install Flask ```
+  1. As a note, you are able to do this within a virtual python environment if you want. The offical Flask documention above shows you how to do that
+- Install Flask Bootstrap 
+``` pip3 install flask-bootstrap ```
+- Install RPi.GPIO 
+``` sudo apt-get install python3-rpi.gpio ```
+- Install RP.Camera 
+``` sudo apt-get install python3-picamera ```
+- The rest of the libraries used are CDNs and are included in this repository excluding Font Awesome wich is linked in the Software section
+- If you wish to download your own CDNs all the links to download them are next to them in the **Software/Libraries Used** section
 
+## Setting The Raspberry Pi As A Access Point
+- This **MUST** be done in order for you to be able to access the webserver in a headless configuration
+- Follow this link to learn how to do so [RPi Access Point](https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all)
