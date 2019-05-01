@@ -74,9 +74,20 @@ sudo apt-get upgrade
 - The rest of the libraries used are CDNs and are included in this repository excluding Font Awesome wich is linked in the Software section
 - If you wish to download your own CDNs all the links to download them are next to them in the **Software/Libraries Used** section
 
-## Setting The Raspberry Pi As A Access Point
+## Setting Up The Raspberry Pi As A Access Point
 - This **MUST** be done in order for you to be able to access the webserver in a headless configuration
 - Follow this link to learn how to do so [RPi Access Point](https://learn.sparkfun.com/tutorials/setting-up-a-raspberry-pi-3-as-an-access-point/all)
+
+## Starting The Server
+- With all of the following steps completed and Font Awesome downloaded and in the **/static** folder everything should be good to go
+- Open a terminal and open the folder were the files are located and type the following command
+``` sudo python3 Server.py ```
+- This will start the server on port 80 on your raspberry pi 
+- With the server started you should be able to connect to you Raspberry Pi's network on any WiFi compatible device and go to the IP address you set for your Pi in the **Setting Up The Raspberry Pi As A Access Point** section and see the website and control both the Pi Robot and HackRR One 
+
+## Additional Notes
+- With the Pi acting like an access point you are able to ssh into to via any terminal or ssh app on a mobile phone using the IP address set in the **Setting Up The Raspberry Pi As A Access Point** section. This allows the project to remain headless.
+- In the **Setting Up The Raspberry Pi As A Access Point** section, the network traffic was forwarded to the eht0 interface. This can be done with any interface on the Pi. I note this because if you want to, you can install a Verizon WiFi dongle and have it forwarded to that interface. In combination with that you can purchase a static IP address from Verizon for $500 USD and have your pi accessable from anywhere in the world.
 
 ## Pictures Of The Graphs
 ![Line Graph](https://i.imgur.com/xOsTxzf.png)
